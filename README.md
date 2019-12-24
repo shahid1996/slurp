@@ -6,7 +6,8 @@ Blackbox/whitebox S3 bucket enumerator
 ## Overview
 - Credit to all the vendor packages that made this tool possible.
 - This is a security tool; it's meant for pen-testers and security professionals to perform audits of s3 buckets.
-- This is the exact same project that was featured in [SANS Newsbites](https://www.sans.org/newsletters/newsbites/xix/95)
+- This is the exact same project that was featured in [SANS Newsbites](https://www.sans.org/newsletters/newsbites/xix/95).
+- What happened to all the star-gazers? Information leak, so deleted project and recreated. It's the same project just without the commit history.
 
 ### Features
 - Scan via domain(s); you can target a single domain or a list of domains
