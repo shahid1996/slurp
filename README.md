@@ -6,6 +6,7 @@ Blackbox/whitebox S3 bucket enumerator
 ## Overview
 - Credit to all the vendor packages that made this tool possible.
 - This is a security tool; it's meant for pen-testers and security professionals to perform audits of s3 buckets.
+- This is the exact same project that was features in [SANS Newsbites](https://www.sans.org/newsletters/newsbites/xix/95)
 
 ### Features
 - Scan via domain(s); you can target a single domain or a list of domains
@@ -45,9 +46,6 @@ ERRO[0003] NoCredentialProviders: no valid providers in chain. Deprecated.
 ```
 
 This error can be thrown if you have profile based setup for `~/.aws/` (no default); you can get around this by running with `AWS_PROFILE=x slurp internal`. Amazons [Named Profiles](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html) documentation sheds more light onto this issue.
-
-### Signals
-Sending `SIGHUP` will output scanner stats to the terminal.
 
 ## Installation
 This project uses `vgo`; you can clone and `go build` or download from Releases section. **Please do not open issues on why you cannot build the project**; this project builds like any other project would in Go, if you cannot build then I strongly suggest you read the [go spec](https://golang.org/ref/spec).
